@@ -1,0 +1,49 @@
+{
+	"topWindow": {
+		"path": "window/top-window.vue",
+		"style": {
+			"height": "60px"
+		}
+	},
+	
+	"pages": [ 
+
+	{
+			"path": "component/view",
+			"style": {
+				"navigationBarTitleText": "Homepage"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+
+		{
+			"path": "component/about",
+			"style": {
+				"navigationBarTitleText": "About"
+			}
+		},
+		{
+			"path": "component/contact",
+			"style": {
+				"navigationBarTitleText": "Contact"
+			}
+		},
+		{
+			"path": "component/signup",
+			"style": {
+				"navigationBarTitleText": "Sign Up"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
